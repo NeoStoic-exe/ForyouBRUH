@@ -38,7 +38,6 @@ function goToStep3() {
 function finalStep() {
     document.getElementById('step3').classList.remove('active');
     document.querySelector('.final-message').style.display = 'block';
-    document.querySelector('.facebook-btn').style.display = 'inline-block';
     triggerConfetti();
     
     // Additional confetti for the final celebration
