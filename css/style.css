@@ -119,24 +119,6 @@ h1 {
     transition: all 0.3s ease;
 }
 
-.facebook-btn {
-    display: none;
-    padding: 15px 40px;
-    background: violet;
-    color: white;
-    text-decoration: none;
-    border-radius: 25px;
-    margin-top: 20px;
-    box-shadow: 0 4px 15px violet;
-    transition: transform 0.3s;
-    width: fit-content;
-}
-
-.facebook-btn:hover {
-    transform: translateY(-3px);
-    box-shadow: 0 6px 20px violet;
-}
-
 .final-message {
     display: none;
     color: violet;
@@ -198,11 +180,6 @@ h1 {
 
     .final-message {
         font-size: 1.2em;
-    }
-
-    .facebook-btn {
-        padding: 12px 30px;
-        font-size: 1em;
     }
 }
 
